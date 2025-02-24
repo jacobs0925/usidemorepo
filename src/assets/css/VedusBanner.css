@@ -1,0 +1,77 @@
+.banner-container
+{
+    display: flex;
+    width: 100%;
+    height: 35em;
+    justify-content: center;
+    position: relative;
+    border-radius: inherit;
+}
+
+.banner-img
+{
+    border-radius: inherit;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    z-index: 0;
+}
+
+.banner-img.flip-image
+{
+    transform: scaleX(-1);
+}
+
+.text-container
+{
+    display: flex;
+    width: 100%;
+    height: 35em;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.text-bubble
+{
+    font-family: 'Poppins';
+    position: absolute;
+    border-radius: 2em;
+    background-color: white;
+    right: 10em;
+    top: 4em;
+    z-index: 1;
+    padding: 2em;
+}
+
+.text-bubble-content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.text-header
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.text-bubble-content
+{}
+
+.button-container
+{
+    display: flex;
+    gap: 2em;
+}
+
+.text-content
+{
+    text-align: start;
+}
+
+.text-subheader
+{
+    font-size: 20px;
+    font-weight: 300;
+}

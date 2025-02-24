@@ -1,0 +1,88 @@
+.imagelisticon
+{
+    display: flex;
+    height: 5em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imagelistitem
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Poppins';
+    cursor: pointer;
+    min-width: 7em;
+    gap: .5em;
+}
+
+.wide
+{
+    width: 14em;
+}
+
+.big
+{
+    height: 6em;
+}
+
+.imagelist
+{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.imagelisticon
+{}
+
+.imagesubtitle
+{
+    display: flex;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+    height: 3em;
+}
+
+.membershipcontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.membershipcontent
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    font-family: 'Poppins';
+    text-align: start;
+    width: 70%;
+    gap: 2em;
+    margin: 2em 0;
+}
+
+.membershipheader
+{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+.membershipsubheader
+{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.imagesubheader
+{
+    font-size: 12px;
+}

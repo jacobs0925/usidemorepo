@@ -1,0 +1,47 @@
+.bannerContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: 'Poppins';
+    gap: 2em;
+    background-color: #f3f3f3;
+    padding: 2em 0;
+}
+
+.bannerImage
+{
+    display: flex;
+    height: 23em;
+    width: 28em;
+}
+
+.bannerHeader
+{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.bannerSubheader
+{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.bannerContent
+{
+    font-size: 14px;
+    text-align: start;
+}
+
+.bannerText
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1em;
+    width: 32em;
+}

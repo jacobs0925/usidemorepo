@@ -1,0 +1,127 @@
+.servicesContainer
+{
+    display: flex;
+    width: 100%;
+    min-height: 24em;
+    background-color: #f3f3f3;
+    justify-content: center;
+    align-items: start;
+    padding: 2em 0;
+}
+
+.servicesContent
+{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: start;
+    align-items: start;
+    font-family: 'Poppins';
+    gap: 1em;
+}
+
+.serviceHeader
+{
+    font-weight: 670;
+    font-size: 24px;
+}
+
+.serviceSubHeader
+{
+    font-weight: 460;
+    font-size: 24px;
+}
+
+.serviceBigHeader
+{
+    font-weight: 670;
+    font-size: 32px;
+}
+
+.serviceSelectorContainer
+{
+    margin-top: 1em;
+    display: flex;
+    width: 90%;
+    justify-content: start;
+    align-items: center;
+    height: 2em;
+    gap: 2em;
+    color: grey;
+}
+
+.vedusCard
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: 'Poppins';
+    gap: 2em;
+}
+
+.cardHeader
+{
+    font-size: 18px;
+    font-weight: 600;
+    /* margin-bottom: -.5em; */
+}
+
+.cardSubHeader
+{
+    font-size: 12px;
+}
+
+.cardArrow
+{
+    position: absolute;
+    right: 1em;
+    bottom: .5em;
+}
+
+.vedusSelector
+{
+    display: flex;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.3s ease 0s;
+}
+
+.vedusSelector.selected
+{
+    border-bottom-color: #3880ff;
+    transition: border-color 0.3s ease 0s;
+    color: black;
+}
+
+.vedusSelector:not(.selected)
+{
+    transition: border-color 0s ease 0s;
+}
+
+.bolded
+{
+    font-weight: 700;
+}
+
+.service-text
+{
+    text-align: left;
+    /* margin-left: 1em; */
+}
+
+.servicesection
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: .5em;
+}
+
+.priceitem
+{
+    text-transform: capitalize;
+}

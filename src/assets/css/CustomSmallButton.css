@@ -1,0 +1,21 @@
+.custom-small-button
+{
+    border-radius: 1.5em;
+    display: flex;
+    width: fit-content;
+    padding: 0.7em;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3880ff;
+    background-color: #3880ff;
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-small-button.inverted
+{
+    background-color: white;
+    color: #3880ff;
+}

@@ -1,0 +1,86 @@
+.locationsectioncontent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 8em;
+}
+
+.isreversed
+{
+    flex-direction: row-reverse;
+}
+
+.homepage-container
+{}
+
+.locationpagesection
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    gap: 8em;
+}
+
+.sidebysidepanel
+{
+    display: flex;
+    width: 24em;
+    height: 24em;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    font-family: 'Poppins';
+}
+
+.panelheader
+{
+    font-weight: 670;
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+
+.panelsubheader
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.paneltextblock
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.locationpagesection:nth-of-type(odd)
+{
+    background-color: #f3f3f3;
+}
+
+.smalltext
+{
+    font-size: 14px;
+}
+
+.centertext
+{
+    text-align: center;
+}
+
+.bolded
+{
+    font-weight: 700;
+}
+
+.columnblock
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
