@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/usidemorepo/static/css/main.45ae8b61.css",
+    "main.js": "/usidemorepo/static/js/main.39a3b6aa.js",
+    "static/media/rsobanner.png": "/usidemorepo/static/media/rsobanner.a87ba01837bd1507cdc1.png",
+    "static/media/usifees.png": "/usidemorepo/static/media/usifees.63b5b65f168bfb188cab.png",
+    "static/media/poppins.regular.ttf": "/usidemorepo/static/media/poppins.regular.1c701c9a6b587802e3d0.ttf",
+    "static/media/range.webp": "/usidemorepo/static/media/range.6ad889cb86e653228404.webp",
+    "static/media/concordlogo.png": "/usidemorepo/static/media/concordlogo.84545ba86ba8e0cb9516.png",
+    "static/media/walnutcreeklogo.png": "/usidemorepo/static/media/walnutcreeklogo.23e8f808fb536947d48f.png",
+    "static/media/brentwoodlogo.png": "/usidemorepo/static/media/brentwoodlogo.1eea94b5ef7425fdad4c.png",
+    "static/media/pattyslogo.webp": "/usidemorepo/static/media/pattyslogo.b7b1f667a8b79cb5e0b5.webp",
+    "static/media/baypointlogo.png": "/usidemorepo/static/media/baypointlogo.1f3e7b94314b4225756d.png",
+    "static/media/diablologo.png": "/usidemorepo/static/media/diablologo.41581ff7be6d2d34ebfd.png",
+    "static/media/paladinlogo.webp": "/usidemorepo/static/media/paladinlogo.e9f25bddbe67ab571035.webp",
+    "static/media/cocorep.webp": "/usidemorepo/static/media/cocorep.b35809bbcb6ed9194240.webp",
+    "static/media/expertlogo.webp": "/usidemorepo/static/media/expertlogo.645a5fedc7894cce872f.webp",
+    "static/media/valleylogo.webp": "/usidemorepo/static/media/valleylogo.d9ae0f8f23c860c533c7.webp",
+    "static/media/threatlogo.webp": "/usidemorepo/static/media/threatlogo.42f975d032985d17f489.webp",
+    "static/media/bluelogo.webp": "/usidemorepo/static/media/bluelogo.99ee4f7ae2e01b698fa3.webp",
+    "static/media/kingslogo.webp": "/usidemorepo/static/media/kingslogo.86164b915c0a9ec4398d.webp",
+    "static/media/2alogo.webp": "/usidemorepo/static/media/2alogo.c2e39a39a3af721f2549.webp",
+    "index.html": "/usidemorepo/index.html",
+    "main.45ae8b61.css.map": "/usidemorepo/static/css/main.45ae8b61.css.map",
+    "main.39a3b6aa.js.map": "/usidemorepo/static/js/main.39a3b6aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45ae8b61.css",
+    "static/js/main.39a3b6aa.js"
+  ]
+}
