@@ -41,9 +41,9 @@ const ColumnBlock = ({items, name1, name2}) =>
             <div className="column">
                 <div className="columnheader">{name1}</div>
                 <div className="columncontents">
-                    {Object.entries(service.pricing).map(([key, value]) => (value != null ?
+                    {/* {Object.entries(service.pricing).map(([key, value]) => (value != null ?
                         <div className="priceitem service-text" key={key}>{key === 'public' ? 'Public (non-VIP)' : key}: ${value}</div> : null
-                    ))}
+                    ))} */}
                 </div>
             </div>
             <div className="column">
