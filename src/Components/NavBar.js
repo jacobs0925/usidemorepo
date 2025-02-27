@@ -22,7 +22,7 @@ const NavBar = () =>
             </div>
             <div className='navButtonContainer'>
                 <NavBarButton text={'Home'} nav={'/'} />
-                <NavBarButton text={'Location'} nav={'/location'} />
+                <NavBarButton text={'Location & Hours'} nav={'/location'} />
                 <NavBarButton text={'Ammunition'} nav={'/ammunition'} />
                 <NavBarButton text={'Membership'} nav={'/membership'} />
                 <NavBarButton text={'Calendar'} nav={'/calendar'} />

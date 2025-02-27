@@ -1,0 +1,8 @@
+.ammunitionpagesection
+{
+    display: flex;
+    width: 100%;
+    padding: 4em 0;
+    justify-content: center;
+    align-items: center;
+}

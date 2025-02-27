@@ -1,7 +1,7 @@
 import NavBar from "./NavBar"
 import VedusBanner from "./VedusBanner"
 import CustomButton from "./CustomButton"
-import homebanner from '../assets/range.webp'
+import homebanner from "../assets/usifront.webp"
 import VedusServices from "./VedusServices"
 import Membership from "./Membership"
 import baypointlogo from "../assets/baypointlogo.png"
@@ -113,7 +113,7 @@ const HomePage = () =>
     return (
         <div className="homepage-container">
             <NavBar></NavBar>
-            <VedusBanner image={homebanner} flipImage={false} textHeader={'United Sportsmen Incorporated'} textSubHeader={"Northern California's Finest Multi Purpose Shooting Facility"} buttons={[
+            <VedusBanner image={homebanner} flipImage={false} textRight={true} textHeader={'United Sportsmen Incorporated'} textSubHeader={"Northern California's Finest Multi Purpose Shooting Facility"} buttons={[
                 <CustomButton text="Join Us"></CustomButton>,
                 <CustomButton text="Our Ranges" invert={true}></CustomButton>,
                 <CustomButton text="Need Ammo?" invert={true}></CustomButton>

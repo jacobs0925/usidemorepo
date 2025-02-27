@@ -1,0 +1,24 @@
+.locationsectioncontent
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+    gap: 8em;
+}
+
+.isreversed
+{
+    flex-direction: row-reverse;
+}
+
+.sidebysidepanel
+{
+    display: flex;
+    width: 24em;
+    /* height: 24em; */
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    font-family: 'Poppins';
+}

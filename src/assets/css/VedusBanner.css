@@ -34,13 +34,31 @@
 .text-bubble
 {
     font-family: 'Poppins';
+    width: 50em;
     position: absolute;
     border-radius: 2em;
     background-color: white;
-    right: 10em;
     top: 4em;
     z-index: 1;
     padding: 2em;
+    
+}
+
+.text-bubble-center
+{
+left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.text-bubble-left
+{
+    left: 10em;
+}
+
+.text-bubble-right
+{
+    right: 10em;
 }
 
 .text-bubble-content
