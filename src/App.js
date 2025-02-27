@@ -5,7 +5,7 @@ import Location from './Components/LocationPage';
 import Ammunition from './Components/AmmunitionPage';
 // import Ammunition from './Components/Ammunition';
 import Membership from './Components/MembershipPage';
-// import Calendar from './Components/Calendar';
+import Calendar from './Components/CalendarPage';
 // import Instructors from './Components/Instructors';
 // import News from './Components/News';
 // import Waiver from './Components/Waiver';
@@ -22,11 +22,11 @@ function App()
                     <Route path="/location" element={<Location />} />
                     <Route path="/ammunition" element={<Ammunition />} />
                     <Route path="/membership" element={<Membership />} />
-                    {/* <Route path="/calendar" element={<Calendar />} />
-                    <Route path="/instructors" element={<Instructors />} />
-                    <Route path="/news" element={<News />} />
-                    <Route path="/waiver" element={<Waiver />} />
-                    <Route path="/contact" element={<Contact />} /> */}
+                    <Route path="/calendar" element={<Calendar />} />
+                    <Route path="/instructors" element={<Membership />} />
+                    <Route path="/news" element={<Membership />} />
+                    <Route path="/waiver" element={<Membership />} />
+                    <Route path="/contact" element={<Membership />} />
                 </Routes>
             </div>
         </Router>

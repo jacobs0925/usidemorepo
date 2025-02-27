@@ -1,0 +1,23 @@
+.calendarcontents
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Poppins';
+    width: 70em;
+    gap: 1em;
+}
+
+.calendarcontainer
+{
+    padding: 2em 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar
+{
+    padding: 2em 0
+}
