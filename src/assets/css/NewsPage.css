@@ -1,0 +1,44 @@
+.pagecontainer
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    padding: 4em 0;
+}
+
+.feesimage
+{
+    object-fit: cover;
+    width: 24em;
+    overflow: hidden;
+}
+
+.newscustomstyle
+{
+    width: 30em;
+    line-height: 1.75;
+    font-size: 16px;
+}
+.pagecontainer:nth-of-type(even)
+{
+    background-color: #f3f3f3;
+}
+
+.feeslogoimg
+{
+    display: flex;
+    width: 8em;
+    height: 8em;
+}
+
+.feescontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2em;
+}

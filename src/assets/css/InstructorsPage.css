@@ -5,9 +5,39 @@
     justify-content: center;
     align-items: center;
     font-family: 'Poppins';
+    padding: 4em 0;
+}
+.cursor-pointer
+{
+    cursor: pointer;
 }
 
 td
 {
     text-align: left;
+}
+
+.typecolumn
+{
+    width: 18em;
+}
+
+.phonecolumn
+{
+    width: 11em;
+}
+
+.emailcolumn
+{
+    width: 20em;
+}
+
+.namecolumn
+{
+    width: 12em;
+}
+
+.companycolumn
+{
+    width: 20em;
 }

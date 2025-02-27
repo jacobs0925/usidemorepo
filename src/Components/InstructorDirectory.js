@@ -68,7 +68,7 @@ const firearmTrainingData = [
         }
     },
     {
-        "companyName": "Bay Area Black Gun Owners Association In",
+        "companyName": "Bay Area Black Gun Owners Association",
         "contactName": "Nathanael Jones",
         "email": "bayareabgoa@gmail.com",
         "phoneNumber": "(513) 642-9667",
@@ -293,7 +293,7 @@ const firearmTrainingData = [
     },
     {
         "companyName": "Joshua John",
-        "contactName": "joshua.john@comcast.net",
+        "contactName": "Joshua John",
         "email": "joshua.john@comcast.net",
         "phoneNumber": "(925) 766-9680",
         "classTypes": {
@@ -735,31 +735,31 @@ const FirearmsTrainingDirectory = () =>
                 <table className="table table-striped table-hover">
                     <thead className="table-dark">
                         <tr>
-                            <th onClick={() => requestSort('companyName')} className="cursor-pointer">
+                            <th onClick={() => requestSort('companyName')} className="companycolumn cursor-pointer">
                                 Company {getSortDirectionIndicator('companyName')}
                             </th>
-                            <th onClick={() => requestSort('contactName')} className="cursor-pointer">
+                            <th onClick={() => requestSort('contactName')} className="namecolumn cursor-pointer">
                                 Contact {getSortDirectionIndicator('contactName')}
                             </th>
-                            <th onClick={() => requestSort('email')} className="cursor-pointer">
+                            <th onClick={() => requestSort('email')} className="emailcolumn cursor-pointer">
                                 Email {getSortDirectionIndicator('email')}
                             </th>
-                            <th onClick={() => requestSort('phoneNumber')} className="cursor-pointer">
+                            <th onClick={() => requestSort('phoneNumber')} className="phonecolumn cursor-pointer">
                                 Phone {getSortDirectionIndicator('phoneNumber')}
                             </th>
-                            <th>Class Types</th>
+                            <th className="typecolumn">Class Types</th>
                         </tr>
                     </thead>
                     <tbody>
                         {filteredData.map((item, index) => (
                             <tr key={index}>
-                                <td>{item.companyName}</td>
-                                <td>{item.contactName}</td>
-                                <td>
+                                <td className="companycolumn">{item.companyName}</td>
+                                <td className="namecolumn">{item.contactName}</td>
+                                <td className="emailcolumn">
                                     <a href={`mailto:${item.email}`}>{item.email}</a>
                                 </td>
-                                <td>{item.phoneNumber}</td>
-                                <td>
+                                <td className="phonecolumn">{item.phoneNumber}</td>
+                                <td className="typecolumn">
                                     <div className="d-flex flex-wrap gap-1">
                                         {Object.entries(item.classTypes).map(([type, offered]) =>
                                             offered && (
