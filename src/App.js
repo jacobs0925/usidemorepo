@@ -3,13 +3,12 @@ import './App.css';
 import HomePage from './Components/Homepage';
 import Location from './Components/LocationPage';
 import Ammunition from './Components/AmmunitionPage';
-// import Ammunition from './Components/Ammunition';
 import Membership from './Components/MembershipPage';
 import Calendar from './Components/CalendarPage';
 import Instructors from './Components/InstructorsPage';
 import News from './Components/NewsPage';
-// import Waiver from './Components/Waiver';
-// import Contact from './Components/Contact';
+import Waiver from './Components/WaiverPage';
+import Contact from './Components/ContactPage';
 
 function App()
 {
@@ -25,8 +24,8 @@ function App()
                     <Route path="/calendar" element={<Calendar />} />
                     <Route path="/instructors" element={<Instructors />} />
                     <Route path="/news" element={<News />} />
-                    <Route path="/waiver" element={<Membership />} />
-                    <Route path="/contact" element={<Membership />} />
+                    <Route path="/waiver" element={<Waiver />} />
+                    <Route path="/contact" element={<Contact />} />
                 </Routes>
             </div>
         </Router>

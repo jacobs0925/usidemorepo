@@ -20,6 +20,7 @@ import kingslogo from "../assets/kingslogo.webp"
 import paladinlogo from "../assets/paladinlogo.webp"
 import valleylogo from "../assets/valleylogo.webp"
 import bluelogo from "../assets/bluelogo.webp"
+import Footer from "./Footer"
 
 const HomePage = () =>
 {
@@ -131,7 +132,7 @@ const HomePage = () =>
                 <WideBanner src={rsobanner} alt={'fuck'} header={'The United Sportsmen Range is Looking for Volunteers'} subheader={'Simply Working Two, 4-hour Shifts Monthly, is all that is necessary after a NRA RSO Course and you can shoot for free*'} content={'Once you become an NRA RSO (5100 Refundable Class). with a current certification, you will receive: An orientation to be a USI RSO for the public ranges. Free shooting during all open hours on the range(s) you work. Your tokens will be required for Trap and Skeet, But you get them at employee/volunteer discounted prices! Free shooting on Mondays. Tuesdays and after hours when the range is not open to the public.'}></WideBanner>
                 <Membership items={sponsorItems} wideIcons={true} header={"Sponsors"} subheader={"The following is a listing of sponsors that have supported United Sportsmen Inc."}></Membership>
             </div>
-
+            <Footer></Footer>
         </div>
     )
 }

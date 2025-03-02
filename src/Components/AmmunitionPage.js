@@ -5,12 +5,13 @@ import bannerimg from '../assets/range.webp'
 import CustomSmallButton from "./CustomSmallButton"
 import SideBySide from "./SideBySide"
 import ammoinfo from "../assets/ammoinfo.webp"
+import Footer from "./Footer"
 const AmmunitionPage = () =>
 {
 
     return (
         <div className="homepage-container">
-        <NavBar></NavBar>
+            <NavBar></NavBar>
             <VedusBanner flipImage={false} image={bannerimg} textRight={true} textHeader={"Ammunition Purchase"} buttons={[
                 <CustomSmallButton wide={true} big={true} text="Ammunition Purchase Agreement"></CustomSmallButton>,
                 <CustomSmallButton wide={true} big={true} text="CRPA Ammo Flowchart" invert={true}></CustomSmallButton>,
@@ -24,9 +25,9 @@ const AmmunitionPage = () =>
                     <img src={ammoinfo} alt={'alt'}></img>
                     <div className="ammocolumn">
                         <div className="ammocontents">
-                            <span className="bolded text-header">How can I buy Ammunition?</span><br/><br/>
+                            <span className="bolded text-header">How can I buy Ammunition?</span><br /><br />
                             <span className="bolded">Step 1:</span><br />Submit external ammo purchase agreement to: Asstmanager@unitedsportsmen.com.<br />
-                            <CustomSmallButton style={{ marginTop: '.5em' }} wide={true} small={true} text="Ammunition Purchase Agreement" invert={false}></CustomSmallButton> <br/>
+                            <CustomSmallButton style={{ marginTop: '.5em' }} wide={true} small={true} text="Ammunition Purchase Agreement" invert={false}></CustomSmallButton> <br />
                             <span className="bolded">Step 2:</span><br />Order ammunition from outside vendor, if necessary, have them contact: Asstmanager@unitedsportsmen.com to obtain a copy of USI's ammo vendor license, or provide them with the attached copy if they will accept it.<br /><br />
                             <span className="bolded">Step 3:</span><br />Send a copy of the invoice to Asstmanager@unitedsportsmen.com.<br /><br />
                             <span className="bolded">Step 4:</span><br />Once your ammo is delivered you can pick it up at the clubhouse anytime the clubhouse is open.<br /><br />
@@ -37,7 +38,7 @@ const AmmunitionPage = () =>
                     </div>
                 </SideBySide>
             </div>
-            
+            <Footer></Footer>
         </div>
     )
 }

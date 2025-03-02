@@ -1,0 +1,80 @@
+.footercontainer
+{
+    background-color: #204179;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 4em 0;
+    font-family: 'Poppins';
+}
+
+.flexeven
+{
+    justify-content: space-evenly;
+}
+
+.flexbetween
+{
+    justify-content: space-between;
+}
+
+.footercolumn
+{
+    gap: 2em;
+    align-items: start;
+    width: 16em;
+    justify-content: start;
+}
+
+.footersubheader
+{
+    text-align: left;
+    font-size: 20px;
+}
+
+.footerheader
+{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.footertext
+{
+    text-align: left;
+}
+
+.maxwidth
+{
+    width: 100%;
+}
+
+.textleft
+{
+    text-align: left;
+}
+
+.justifycenter
+{
+    justify-content: center;
+}
+
+.weathercolumn
+{
+    gap: .25em;
+}
+
+.weatherheader
+{
+    font-size: 20px;
+    margin-bottom: .5em;
+}
+
+.footerbottombar
+{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 1em 0;
+}

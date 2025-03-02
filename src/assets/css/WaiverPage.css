@@ -1,0 +1,76 @@
+.waiverpagecontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4em 0;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.waivertextbox
+{
+    text-align: left;
+    width: 70%;
+    font-size: 18px;
+}
+
+/* .waiverpagecontainer:nth-of-type(odd)
+{
+    background-color: #f3f3f3;
+} */
+
+.bolded
+{
+    display: inline-block;
+}
+
+.rulescontainer
+{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 1.5em;
+    padding: 2em;
+}
+
+.rulescontent
+{
+    display: flex;
+    font-family: 'Poppins';
+    height: 44em;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.rulecolumn
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+.rulesheaders
+{
+    display: flex;
+    width: 100%;
+    padding-bottom: 2em;
+    font-weight: 670;
+    font-size: 22px;
+}
+
+.ruleheader
+{
+    width: 100%;
+}
+
+.rulesfootertext
+{
+    text-align: left;
+    font-weight: 670;
+}

@@ -23,6 +23,7 @@ import VedusBanner from "./VedusBanner"
 import grouphoto from "../assets/usibunkers.webp"
 import CustomSmallButton from "./CustomSmallButton"
 import logo from '../assets/logo.png'
+import Footer from "./Footer"
 const sponsorItems =
     [
         {
@@ -140,6 +141,7 @@ const NewsPage = () =>
             <div className="pagecontainer">
                 <Membership items={membershipItems} bigIcons={true} header={"Visit The Club's Website For Their Current Activities"} subheader={"Click The Logo To Go To Club's Website"}></Membership>
             </div>
+            <Footer></Footer>
         </div>
     )
 }

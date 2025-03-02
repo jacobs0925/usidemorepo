@@ -1,4 +1,5 @@
 import "../assets/css/CalendarPage.css"
+import Footer from "./Footer"
 import NavBar from "./NavBar"
 
 const CalendarPage = () =>
@@ -17,6 +18,7 @@ const CalendarPage = () =>
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     )
 }

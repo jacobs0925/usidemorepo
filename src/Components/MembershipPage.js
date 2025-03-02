@@ -6,6 +6,7 @@ import brentwoodlogo from "../assets/brentwoodlogo.png"
 import concordlogo from "../assets/concordlogo.png"
 import walnutcreeklogo from "../assets/walnutcreeklogo.png"
 import diablologo from "../assets/diablologo.png"
+import Footer from "./Footer"
 
 const membershipItems =
     [
@@ -45,7 +46,7 @@ const MembershipPage = () =>
             <div className="pagesectioncontainer">
                 <Membership items={membershipItems} imagelistheader={"Membership Applications:"} header={"Membership & Club Information"} subheader={"United Sportsmen Incorporated is owned and operated by five clubs: the Bay Point Rod and Gun Club, the Brentwood Rod and Gun Club, the Concord Sportsmen's Club, the Diablo Rod and Gun Club, and the Walnut Creek Sportsmen's Club. Each club hosts a wide variety of recreational shooting and social events throughout the year. As a member in any one (or more) of the five clubs, you are eligible to purchase an annual “discount card” for shoot fees,  ammo and shooting supplies."}></Membership>
             </div>
-
+            <Footer></Footer>
         </div>
     )
 }

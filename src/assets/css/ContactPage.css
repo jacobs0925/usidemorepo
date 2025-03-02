@@ -1,0 +1,119 @@
+.contact-form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+}
+
+.contactpagesection
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins';
+    padding: 2em 0;
+}
+
+.contactpagecontent
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #f3f3f3;
+    border-radius: 1.5em;
+    padding: 2em;
+    gap: 2em;
+}
+
+.selectorinput
+{
+    margin-bottom: 1em;
+}
+
+.formlabel
+{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: .25em;
+}
+
+.messageinput
+{
+    height: 190px;
+}
+
+.boardmemberslist
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.flexrow
+{
+    display: flex;
+}
+
+.flexcolumn
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactimage
+{
+    width: 608px;
+}
+
+.flexcenter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactcolumn
+{
+    gap: 2em;
+    width: 608px;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    height: 100%;
+}
+
+.contactrow
+{
+    gap: 3em
+}
+
+.clubname
+{
+    font-size: 20px;
+}
+
+.membername
+{
+    font-size: 18px;
+}
+
+.memberemail
+{
+    font-size: 12px;
+}
+
+.boardmembersheader
+{
+    font-size: 24px;
+    font-weight: 670;
+    margin-bottom: .5em;
+    text-decoration: underline;
+}
+
+.contactparentrow
+{
+    gap: 10em;
+}

@@ -1,6 +1,7 @@
 import NavBar from "./NavBar"
 import "../assets/css/InstructorsPage.css"
 import InstructorDirectory from './InstructorDirectory'
+import Footer from "./Footer"
 const InstructorsPage = () =>
 {
 
@@ -12,6 +13,7 @@ const InstructorsPage = () =>
 
                 </InstructorDirectory>
             </div>
+            <Footer></Footer>
         </div>
     )
 }
