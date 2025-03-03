@@ -129,13 +129,13 @@ const ContactPage = () =>
                     <div className="flexcolumn">
                         <img className="contactimage" src={contactusimg} alt="contact us"></img>
                         <div className="flexcolumn flexcenter contactcolumn">
-                            <div>
+                            <div className="clubname">
                                 Rifle and Pistol Range and the
                                 Shotgun Range/Club House:
                                 925-676-1987
 
                             </div>
-                            <div>
+                            <div className="clubname">
                                 USI does not rent guns or give lessons, however
                                 we have a list of Authorized Instructors shown on
                                 the “Instructors” page
@@ -208,7 +208,7 @@ const ContactPage = () =>
             </div>
 
             <div className="contactpagesection">
-                <Membership items={sponsorItems} wideIcons={true} header={"Sponsors"} subheader={"The following is a listing of sponsors that have supported United Sportsmen Inc."}></Membership>
+                <Membership items={sponsorItems} wideIcons={true} className={'sponsorlist'} header={"Sponsors"} subheader={"The following is a listing of sponsors that have supported United Sportsmen Inc."}></Membership>
             </div>
             <Footer></Footer>
         </div>

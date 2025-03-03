@@ -41,12 +41,12 @@
     top: 4em;
     z-index: 1;
     padding: 2em;
-    
+
 }
 
 .text-bubble-center
 {
-left: 50%;
+    left: 50%;
     right: 50%;
     transform: translateX(-50%);
 }
@@ -92,4 +92,62 @@ left: 50%;
 {
     font-size: 20px;
     font-weight: 300;
+}
+
+@media (max-width: 460px)
+{
+    .banner-container
+    {
+        display: none;
+    }
+
+    .serviceSelectorContainer
+    {
+        width: 100% !important;
+        margin-top: 0 !important;
+    }
+
+    .membershipheader
+    {
+        font-size: 26px !important;
+    }
+
+    .membershipsubheader
+    {
+        font-size: 16px !important;
+    }
+
+    .imagelistitem
+    {
+        min-width: 6em !important;
+    }
+
+    .imagelist
+    {
+        gap: 0 .5em !important;
+    }
+
+    .membershipcontent
+    {
+        width: 80% !important;
+    }
+
+    .bannerImage
+    {
+        height: 18em !important;
+        width: 23em !important;
+    }
+
+    .bannerText
+    {
+        width: 80% !important;
+    }
+
+    .sponsorlist
+    {
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 2em !important;
+        flex-direction: column !important;
+    }
 }

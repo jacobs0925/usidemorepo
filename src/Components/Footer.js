@@ -76,6 +76,7 @@ const Weather = () =>
                 </div>
                 <div>Winds: {weather.windspeed} {weather.winddirection}</div>
                 <div>Apparent Temperature: {weather.apparentTemp}</div>
+                <div>Precipitation Chance: {weather.rainchance}</div>
                 <div>Pressure: {weather.pressure}</div>
                 <div>Relative Humidity: {weather.humidity}</div>
                 <div>Wind Gusts: {weather.windgusts}</div>

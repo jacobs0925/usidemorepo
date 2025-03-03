@@ -114,7 +114,7 @@ const HomePage = () =>
     return (
         <div className="homepage-container">
             <NavBar></NavBar>
-            <VedusBanner image={homebanner} flipImage={false} textRight={true} textHeader={'United Sportsmen Incorporated'} textSubHeader={"Northern California's Finest Multi Purpose Shooting Facility"} buttons={[
+            <VedusBanner image={homebanner} flipImage={false} textRight={null} textHeader={'United Sportsmen Incorporated'} textSubHeader={"Northern California's Finest Multi Purpose Shooting Facility"} buttons={[
                 <CustomButton text="Join Us"></CustomButton>,
                 <CustomButton text="Our Ranges" invert={true}></CustomButton>,
                 <CustomButton text="Need Ammo?" invert={true}></CustomButton>
@@ -130,7 +130,7 @@ const HomePage = () =>
             <div>
                 <Membership items={membershipItems} imagelistheader={"Membership Applications:"} header={"Membership & Club Information"} subheader={"United Sportsmen Incorporated is owned and operated by five clubs: the Bay Point Rod and Gun Club, the Brentwood Rod and Gun Club, the Concord Sportsmen's Club, the Diablo Rod and Gun Club, and the Walnut Creek Sportsmen's Club. Each club hosts a wide variety of recreational shooting and social events throughout the year. As a member in any one (or more) of the five clubs, you are eligible to purchase an annual “discount card” for shoot fees,  ammo and shooting supplies."}></Membership>
                 <WideBanner src={rsobanner} alt={'fuck'} header={'The United Sportsmen Range is Looking for Volunteers'} subheader={'Simply Working Two, 4-hour Shifts Monthly, is all that is necessary after a NRA RSO Course and you can shoot for free*'} content={'Once you become an NRA RSO (5100 Refundable Class). with a current certification, you will receive: An orientation to be a USI RSO for the public ranges. Free shooting during all open hours on the range(s) you work. Your tokens will be required for Trap and Skeet, But you get them at employee/volunteer discounted prices! Free shooting on Mondays. Tuesdays and after hours when the range is not open to the public.'}></WideBanner>
-                <Membership items={sponsorItems} wideIcons={true} header={"Sponsors"} subheader={"The following is a listing of sponsors that have supported United Sportsmen Inc."}></Membership>
+                <Membership items={sponsorItems} className={'sponsorlist'} wideIcons={true} header={"Sponsors"} subheader={"The following is a listing of sponsors that have supported United Sportsmen Inc."}></Membership>
             </div>
             <Footer></Footer>
         </div>

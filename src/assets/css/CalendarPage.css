@@ -4,7 +4,7 @@
     flex-direction: column;
     text-align: left;
     font-family: 'Poppins';
-    width: 70em;
+    width: 70%;
     gap: 1em;
 }
 
@@ -19,5 +19,17 @@
 
 .calendar
 {
-    padding: 2em 0
+    display: flex;
+    padding: 2em 0;
+    height: fit-content;
+}
+
+
+@media (max-width: 480px)
+{
+    .actualcalendar
+    {
+        width: 70vw !important;
+        height: 50vh !important;
+    }
 }

@@ -1,10 +1,10 @@
 import "../assets/css/ImageList.css"
 
-const ImageList = ({ items, wide = false, big = false }) =>
+const ImageList = ({ items, className, wide = false, big = false }) =>
 {
 
     return (
-        <div className="imagelist">
+        <div className={`imagelist ${className || ""}`.trim()}>
             {items.map(item => <ImageItem wide={wide} big={big} item={item}></ImageItem>)}
         </div>
     )
@@ -22,7 +22,7 @@ const ImageItem = ({ item, wide = false, big = false }) =>
     )
 }
 
-const Membership = ({ header, subheader, imagelistheader, items, wideIcons=false, bigIcons=false }) =>
+const Membership = ({ header, subheader, imagelistheader, className, items, wideIcons=false, bigIcons=false }) =>
 {
 
     return (
@@ -31,7 +31,7 @@ const Membership = ({ header, subheader, imagelistheader, items, wideIcons=false
                 <div className="membershipheader">{header}</div>
                 <div className="membershipsubheader">{subheader}</div>
                 <div className="membershipheader">{imagelistheader}</div>
-                <ImageList wide={wideIcons} big={bigIcons} items={items}></ImageList>
+                <ImageList className={className} wide={wideIcons} big={bigIcons} items={items}></ImageList>
             </div>
         </div>
     )

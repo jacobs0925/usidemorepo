@@ -12,7 +12,7 @@ const AmmunitionPage = () =>
     return (
         <div className="homepage-container">
             <NavBar></NavBar>
-            <VedusBanner flipImage={false} image={bannerimg} textRight={true} textHeader={"Ammunition Purchase"} buttons={[
+            <VedusBanner flipImage={false} image={bannerimg} textRight={null} textHeader={"Ammunition Purchase"} buttons={[
                 <CustomSmallButton wide={true} big={true} text="Ammunition Purchase Agreement"></CustomSmallButton>,
                 <CustomSmallButton wide={true} big={true} text="CRPA Ammo Flowchart" invert={true}></CustomSmallButton>,
             ]}>

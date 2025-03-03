@@ -16,6 +16,7 @@
     cursor: pointer;
     min-width: 7em;
     gap: .5em;
+    max-width: 100%;
 }
 
 .wide
@@ -36,7 +37,9 @@
 }
 
 .imagelisticon
-{}
+{
+    max-width: 100%;
+}
 
 .imagesubtitle
 {
@@ -85,4 +88,46 @@
 .imagesubheader
 {
     font-size: 12px;
+}
+
+@media (max-width: 1024px)
+{
+    .imagelist
+    {
+        gap: 1.5em;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .imagelistitem
+    {
+        gap: 0;
+    }
+
+    .imagesubtitle
+    {
+        height: fit-content;
+    }
+
+    .imagelistitem
+    {
+        max-width: 100%;
+    }
+
+    .imagelist
+    {
+        width: 100%;
+    }
+
+    .membershipcontent
+    {
+        gap: 1em;
+    }
+
+    .serviceSelectorContainer
+    {
+        height: fit-content;
+        gap: 1.25;
+    }
 }
