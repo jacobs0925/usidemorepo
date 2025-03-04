@@ -31,7 +31,11 @@ const NavBar = () =>
     return (
         <>
             <div className="navmobilecontainer">
-                <RxHamburgerMenu onClick={() => revealNav(!mobileNavVisible)} className='burger' color={'white'} />
+                <div className="flexrow mobilenavheader">
+                    <RxHamburgerMenu onClick={() => revealNav(!mobileNavVisible)} className='burger' color={'white'} />
+                    <div className='navlogotext'>United Sportsmen</div>
+                    <img className="navlogo" src={logo} alt='logo'></img>
+                </div>
                 {mobileNavVisible ? navButtons : null}
             </div>
             <div className='nav-container'>

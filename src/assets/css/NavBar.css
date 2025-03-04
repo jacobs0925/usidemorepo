@@ -116,6 +116,8 @@
         justify-content: start;
         align-items: center;
         position: relative;
+        color: white;
+        max-width: 100%;
     }
 
     .navButtonContainer
@@ -141,15 +143,27 @@
         height: 3em;
         margin-left: 1em;
     }
+
+    .mobilenavheader
+    {
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navlogotext
+    {
+        font-size: 32px;
+    }
+
+    .navlogo
+    {
+        max-height: 6em;
+    }
 }
 
 @media (max-width: 480px)
 {
-
-    /* .footermap
-    {
-        width: 20em !important;
-    } */
 
     .footercolumn
     {
@@ -160,4 +174,14 @@
     {
         padding-top: 2em !important;
     }
+
+        .navlogotext
+        {
+            font-size: 22px;
+        }
+    
+        .navlogo
+        {
+            max-height: 4em;
+        }
 }
