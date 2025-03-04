@@ -115,6 +115,24 @@
         display: flex;
         justify-content: start;
         align-items: center;
+        position: relative;
+    }
+
+    .navButtonContainer
+    {
+        width: fit-content;
+        text-align: left;
+        position: absolute;
+        justify-content: start;
+        background-color: #758fbb;
+        color: white;
+        z-index: 999;
+        top: 100%;
+        left: 0;
+        height: fit-content;
+        align-items: start;
+        padding: 1em 1em;
+        gap: 1em;
     }
 
     .burger
