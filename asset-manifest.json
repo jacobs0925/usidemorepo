@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/usidemorepo/static/css/main.d45174b8.css",
-    "main.js": "/usidemorepo/static/js/main.0fdc6d7f.js",
+    "main.css": "/usidemorepo/static/css/main.86b71af7.css",
+    "main.js": "/usidemorepo/static/js/main.a5d7fbc3.js",
     "static/media/rsobanner.png": "/usidemorepo/static/media/rsobanner.a87ba01837bd1507cdc1.png",
     "static/media/poppins.regular.ttf": "/usidemorepo/static/media/poppins.regular.1c701c9a6b587802e3d0.ttf",
     "static/media/usifront.webp": "/usidemorepo/static/media/usifront.3560dfa4e8018a2bf019.webp",
@@ -25,11 +25,11 @@
     "static/media/kingslogo.webp": "/usidemorepo/static/media/kingslogo.86164b915c0a9ec4398d.webp",
     "static/media/2alogo.webp": "/usidemorepo/static/media/2alogo.c2e39a39a3af721f2549.webp",
     "index.html": "/usidemorepo/index.html",
-    "main.d45174b8.css.map": "/usidemorepo/static/css/main.d45174b8.css.map",
-    "main.0fdc6d7f.js.map": "/usidemorepo/static/js/main.0fdc6d7f.js.map"
+    "main.86b71af7.css.map": "/usidemorepo/static/css/main.86b71af7.css.map",
+    "main.a5d7fbc3.js.map": "/usidemorepo/static/js/main.a5d7fbc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.d45174b8.css",
-    "static/js/main.0fdc6d7f.js"
+    "static/css/main.86b71af7.css",
+    "static/js/main.a5d7fbc3.js"
   ]
 }
