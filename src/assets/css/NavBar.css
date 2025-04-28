@@ -25,6 +25,7 @@
 
 .navButtonContainer
 {
+    position: relative;
     display: flex;
     height: 100%;
     gap: 2em;
@@ -96,13 +97,14 @@
     position: relative;
     flex-direction: column;
     display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1em;
 }
 
-.navBarHoverButton.navButton
+.navHoverContainer .navButton
 {
-    text-align: left;
-    justify-content: center;
-    align-items: center;
+    font-weight: 100;
 }
 
 @media (max-width: 1400px)
@@ -110,6 +112,11 @@
     .nav-container
     {
         display: none;
+    }
+
+    .navHoverContainer .navButton
+    {
+        font-weight: 600;
     }
 
     .mobilenavheader
@@ -159,6 +166,12 @@
         padding: 1em 1em;
         gap: 1em;
         flex-direction: column;
+    }
+
+    .navHoverContainer
+    {
+        position: relative;
+        padding: 0em 1em;
     }
 }
 

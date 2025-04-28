@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 import { Link } from 'react-router-dom'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from 'react';
-import { HashLink  } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 
 const NavBarButton = ({ text, nav, style }) =>
 {
@@ -20,16 +20,18 @@ const NavBarHoverButton = ({ text, nav, children }) =>
     const [isHover, setIsHovered] = useState(false);
 
     return (
-        <div className='navBarHoverButton'
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}>
-            <Link
-                to={nav}
-                className='navButton'>
-                {text}
-            </Link>
-            {isHover && <div className="navHoverContainer">{children}</div>}
-        </div>
+        <>
+            <div className='navBarHoverButton'
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}>
+                <Link
+                    to={nav}
+                    className='navButton'>
+                    {text}
+                </Link>
+                {isHover && <div className="navHoverContainer">{children}</div>}
+            </div>
+        </>
     );
 };
 
