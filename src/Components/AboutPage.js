@@ -1,9 +1,8 @@
 import "../assets/css/NewsPage.css"
 import NavBar from "./NavBar"
 import SideBySide from "./SideBySide"
-import usifees from "../assets/usifees.png"
-import WideBanner from "./WideBanner"
-import rsobanner from "../assets/rsobanner.png"
+import bannerimg from '../assets/range.webp'
+import ammoinfo from "../assets/ammoinfo.webp"
 import cocorep from "../assets/cocorep.webp"
 import expertlogo from "../assets/expertlogo.webp"
 import pattyslogo from "../assets/pattyslogo.webp"
@@ -110,18 +109,45 @@ const membershipItems =
         },
     ]
 
-const NewsPage = () =>
+const AboutPage = () =>
 {
 
     return (
         <div className="homepage-container">
             <NavBar></NavBar>
-            <div className="pagecontainer">
+            <VedusBanner flipImage={false} image={bannerimg} textRight={null} textHeader={"Ammunition Purchase"} buttons={[
+                <CustomSmallButton wide={true} big={true} text="Outside Ammunition Purchase Agreement"></CustomSmallButton>,
+            ]}>
+                U.S.I. ammunition quantities vary based on the current shortages and supply issues. Due to high demand, we may have inventory shortages.<br /><br />
+                California's Ammunition Background Check Requirement law is still in effect. Additionally, California has instituted an 11% excise tax on ammunition and firearms.<br /><br />
+                There is litigation pending that is challenging the constitutionality of this tax, but until resolved USI must collect and remit it to the State of California.
+            </VedusBanner>
+            <div className="locationpagesection" id="ammunition">
+                <SideBySide reverse={true} >
+                    <img src={ammoinfo} alt={'alt'}></img>
+                    <div className="ammocolumn">
+                        <div className="ammocontents">
+                            <span className="bolded text-header">How can I buy Ammunition?</span><br /><br />
+                            <span className="bolded">Step 1:</span><br />Submit external ammo purchase agreement to: <a href="mailto:Asstmanager@unitedsportsmen.com">Asstmanager@unitedsportsmen.com</a><br />
+                            <CustomSmallButton style={{ marginTop: '.5em' }} wide={true} small={true} text="Outside Ammunition Purchase Agreement" invert={false}></CustomSmallButton> <br />
+                            <span className="bolded">Step 2:</span><br />Order ammunition from outside vendor, if necessary, have them contact: <a href="mailto:Asstmanager@unitedsportsmen.com">Asstmanager@unitedsportsmen.com</a> to obtain a copy of USI's ammo vendor license, or provide them with the attached copy if they will accept it.<br /><br />
+                            <span className="bolded">Step 3:</span><br />Send a copy of the invoice to <a href="mailto:Asstmanager@unitedsportsmen.com">Asstmanager@unitedsportsmen.com</a><br /><br />
+                            <span className="bolded">Step 4:</span><br />Once your ammo is delivered you can pick it up at the clubhouse anytime the clubhouse is open.<br /><br />
+                            <span className="bolded">Step 5:</span><br />The State of California has instituted background checks and a new 11% excise tax that we must collect at the time of delivery. You must have a copy of the invoice in order to pick up your ammunition.<br /><br />
+                        </div>
+                    </div>
+                </SideBySide>
+            </div>
+            <div className="locationpagesection" id="sponsors">
                 <Membership items={sponsorItems} className={'sponsorlist'} wideIcons={true} header={"Sponsors"} subheader={"The following is a listing of sponsors that have supported United Sportsmen Inc."}></Membership>
             </div>
+            <div className="locationpagesection" id="membership">
+                <Membership items={membershipItems} imagelistheader={"Club Websites:"} header={"Membership & Club Information"} subheader={"United Sportsmen Incorporated is owned and operated by five clubs: the Bay Point Rod and Gun Club, the Brentwood Rod and Gun Club, the Concord Sportsmen's Club, the Diablo Rod and Gun Club, and the Walnut Creek Sportsmen's Club. Each club hosts a wide variety of recreational shooting and social events throughout the year. As a member in any one (or more) of the five clubs, you are eligible to purchase an annual “discount card” for shoot fees,  ammo and shooting supplies."}></Membership>
+            </div>
+
             <Footer></Footer>
         </div>
     )
 }
 
-export default NewsPage;
+export default AboutPage;

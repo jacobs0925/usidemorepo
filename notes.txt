@@ -4,13 +4,8 @@ HOMEPAGE drive people to waiver
 
 ammunition page
 
-    move to dropdown of about tab
 
     group in sponsors + membership +club info
-
-membership page
-
-    group into about and remove from navbar
 
 calendar page
 

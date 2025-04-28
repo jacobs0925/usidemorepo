@@ -6,7 +6,7 @@ import Ammunition from './Components/AmmunitionPage';
 import Membership from './Components/MembershipPage';
 import Calendar from './Components/CalendarPage';
 import Instructors from './Components/InstructorsPage';
-import News from './Components/NewsPage';
+import About from './Components/AboutPage';
 import Waiver from './Components/WaiverPage';
 import Contact from './Components/ContactPage';
 
@@ -23,7 +23,7 @@ function App()
                     <Route path="/membership" element={<Membership />} />
                     <Route path="/calendar" element={<Calendar />} />
                     <Route path="/instructors" element={<Instructors />} />
-                    <Route path="/news" element={<News />} />
+                    <Route path="/about" element={<About />} />
                     <Route path="/waiver" element={<Waiver />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>

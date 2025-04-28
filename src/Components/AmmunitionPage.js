@@ -2,9 +2,9 @@ import "../assets/css/AmmunitionPage.css"
 import NavBar from "./NavBar"
 import VedusBanner from "./VedusBanner"
 import bannerimg from '../assets/range.webp'
+import ammoinfo from "../assets/ammoinfo.webp"
 import CustomSmallButton from "./CustomSmallButton"
 import SideBySide from "./SideBySide"
-import ammoinfo from "../assets/ammoinfo.webp"
 import Footer from "./Footer"
 const AmmunitionPage = () =>
 {

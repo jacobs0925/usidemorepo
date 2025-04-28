@@ -119,15 +119,15 @@ const Footer = () =>
                 </div>
 
                 <div className="flexcolumn footercolumn">
+                    <div className="footerheader">USI Weather</div>
+                    <Weather></Weather>
+                </div>
+
+                <div className="flexcolumn footercolumn">
                     <div className="footerheader">Call Us</div>
                     <div className="footertext">
                         <div className="bolded">925-676-1987</div>
                     </div>
-                </div>
-
-                <div className="flexcolumn footercolumn">
-                    <div className="footerheader">USI Weather</div>
-                    <Weather></Weather>
                 </div>
             </div>
             <div className="footerbottombar">

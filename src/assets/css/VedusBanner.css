@@ -97,13 +97,16 @@
     font-weight: 300;
 }
 
-@media (max-width: 460px)
+@media (max-width: 900px)
 {
     .banner-container
     {
         display: none;
     }
+}
 
+@media (max-width: 460px)
+{
     .serviceSelectorContainer
     {
         width: 100% !important;

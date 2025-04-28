@@ -45,7 +45,7 @@
 {
     margin-top: 1em;
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: start;
     align-items: center;
     height: 2em;
@@ -127,4 +127,22 @@
 .priceitem
 {
     text-transform: capitalize;
+}
+
+@media (max-width: 650px)
+{
+
+    .vedusSelector
+    {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px)
+{
+
+    .vedusSelector
+    {
+        font-size: 16px;
+    }
 }
