@@ -23,7 +23,7 @@
 .footercolumn
 {
     gap: 2em;
-    align-items: start;
+    align-items: center;
     width: 16em;
     justify-content: start;
 }
@@ -42,7 +42,7 @@
 
 .footertext
 {
-    text-align: left;
+    text-align: center;
 }
 
 .maxwidth

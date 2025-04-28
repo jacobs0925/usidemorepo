@@ -127,11 +127,9 @@ const ContactPage = () =>
             <div className="contactpagesection">
                 <div className="flexrow contactparentrow">
                     <div className="flexcolumn">
-                        <img className="contactimage" src={contactusimg} alt="contact us"></img>
                         <div className="flexcolumn flexcenter contactcolumn">
                             <div className="clubname">
-                                Rifle and Pistol Range and the
-                                Shotgun Range/Club House:
+                                Call us: <br/>
                                 925-676-1987
 
                             </div>
@@ -155,15 +153,6 @@ const ContactPage = () =>
                         </div>
 
                     </div>
-                    <div className="flexcolumn flexcenter">
-                        <div className="boardmembersheader">
-                            U.S.I. Board of Directors
-                        </div>
-                        <div className="boardmemberslist">
-                            {boardmembers.map(item => <BoardMember name={item.name} clubname={item.clubname} email={item.email}></BoardMember>)}
-                        </div>
-                    </div>
-
                 </div>
 
 
@@ -205,10 +194,6 @@ const ContactPage = () =>
                     </div>
                     <CustomSmallButton small={true} text={'Send'}></CustomSmallButton>
                 </div>
-            </div>
-
-            <div className="contactpagesection">
-                <Membership items={sponsorItems} wideIcons={true} className={'sponsorlist'} header={"Sponsors"} subheader={"The following is a listing of sponsors that have supported United Sportsmen Inc."}></Membership>
             </div>
             <Footer></Footer>
         </div>

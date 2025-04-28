@@ -23,21 +23,21 @@ const NavBar = () =>
         <NavBarButton text={'Membership'} nav={'/membership'} />
         <NavBarButton text={'Calendar'} nav={'/calendar'} />
         <NavBarButton text={'Instructors'} nav={'/instructors'} />
-        <NavBarButton text={'News'} nav={'/news'} />
+        <NavBarButton text={'Sponsors'} nav={'/news'} />
         <NavBarButton text={'Wavier'} nav={'/waiver'} />
         <NavBarButton text={'Contact Us'} nav={'/contact'} />
     </div>
     const [mobileNavVisible, revealNav] = useState(false)
     return (
         <>
-            <div className="navmobilecontainer">
+            {mobileNavVisible  && <div className="navmobilecontainer">
                 <div className="flexrow mobilenavheader">
                     <RxHamburgerMenu onClick={() => revealNav(!mobileNavVisible)} className='burger' color={'white'} />
                     <div className='navlogotext'>United Sportsmen</div>
                     <img className="navlogo" src={logo} alt='logo'></img>
                 </div>
                 {mobileNavVisible ? navButtons : null}
-            </div>
+            </div>}
             <div className='nav-container'>
                 <div className='navlogocontainer'>
                     <img className="navlogo" src={logo} alt='logo'></img>

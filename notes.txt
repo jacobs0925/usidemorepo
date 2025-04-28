@@ -1,0 +1,29 @@
+add dropdown on hover for navbar
+
+HOMEPAGE drive people to waiver
+
+ammunition page
+
+    move to dropdown of about tab
+
+    group in sponsors + membership +club info
+
+membership page
+
+    group into about and remove from navbar
+
+calendar page
+
+    center calendar
+
+    look for better calendar iframe (scale up)
+
+    show week view?
+
+waiver page
+
+    make page look less bland
+
+instructors page
+
+    allow blake to add instructors

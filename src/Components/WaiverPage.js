@@ -123,20 +123,20 @@ const WaiverPage = () =>
             </div>
             <div className="waiverpagecontainer">
                 <div className="rulescontainer">
-                    <div className="rulesheaders">
+                    <div style={{ gap: '2em' }} className="rulesheaders">
                         <div className="ruleheader">Rifle/Pistol Range Rules & Procedures</div>
                         <div className="ruleheader">Skeet/Trap Range Rules</div>
                     </div>
-                    <div className="rulescontent">
-                        <div className="rulecolumn">
+                    <div className="flexrow" style={{gap: '2em'}}>
+                        <div className="rulecolumn rulescontent">
                             {firstlist}
                         </div>
-                        <div className="rulecolumn">
+                        <div className="rulecolumn rulescontent">
                             {secondlist}
                         </div>
                             
                     </div>
-                    <CustomSmallButton style={{ margin: '2em 0' }} wide={true} small={true} text="Sign Waiver Here" invert={false}></CustomSmallButton>
+                    <CustomSmallButton style={{ margin: '2em 0'}} wide={true} big={true} text="Sign Waiver Here" invert={false}></CustomSmallButton>
                     <div className="rulesfootertext">Failure to adhere to these rules may be cause for denying shooters access to USI shooting fields and facilities.
                         If you are a new shooter, ask your puller for assistance in shooting the course.</div>
                 </div>

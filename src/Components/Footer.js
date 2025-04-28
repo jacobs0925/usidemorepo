@@ -74,15 +74,9 @@ const Weather = () =>
                         <span>{weather.currentTemp}</span>
                     </div>
                 </div>
-                <div>Winds: {weather.windspeed} {weather.winddirection}</div>
                 <div>Apparent Temperature: {weather.apparentTemp}</div>
                 <div>Precipitation Chance: {weather.rainchance}</div>
-                <div>Pressure: {weather.pressure}</div>
-                <div>Relative Humidity: {weather.humidity}</div>
-                <div>Wind Gusts: {weather.windgusts}</div>
-                <div>UV Index: {weather.uvindex}</div>
-                <div>Sunrise: {weather.sunrise}</div>
-                <div>Sunset: {weather.sunset}</div>
+                <div>Winds: {weather.windspeed} {weather.winddirection}</div>
             </div>
             : "Loading..."}
         </>
@@ -97,23 +91,23 @@ const Footer = () =>
             <div className="footercontainer flexrow">
                 <div className="flexcolumn footercolumn">
                     <div className="footerheader">Location</div>
-                    <iframe className="footermap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6286.480971233728!2d-121.99405332355428!3d38.01817269810112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808567875e997d75%3A0xe8a76702d488093c!2s4700%20Evora%20Rd%2C%20Concord%2C%20CA%2094520!5e0!3m2!1sen!2sus!4v1740611982437!5m2!1sen!2sus" width="256" height="256" loading="lazy"></iframe>
-                    <div className="flexrow flexeven maxwidth">
-                        <a href="https://www.facebook.com/United-Sportsmen-Incorporated-239477569438680/"><img src="https://unitedsportsmen.com/wp-content/uploads/2018/07/Facebook-icon60.png" alt="FB logo" /></a>
-                        <a href="https://www.yelp.com/biz/united-sportsmen-concord" target="_blank" rel="noopener"><img class="wp-image-8799 alignnone" src="https://unitedsportsmen.com/wp-content/uploads/2017/03/Yelp-60.jpg" alt="" width="60" height="60" /></a>
+                    <div className="footertext">
+                        United Sportsmen Incorporated<br />
+                        4700 Evora Road<br />
+                        Concord, California 94520
                     </div>
+                    <iframe className="footermap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6286.480971233728!2d-121.99405332355428!3d38.01817269810112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808567875e997d75%3A0xe8a76702d488093c!2s4700%20Evora%20Rd%2C%20Concord%2C%20CA%2094520!5e0!3m2!1sen!2sus!4v1740611982437!5m2!1sen!2sus" width="210" height="210" loading="lazy"></iframe>
                 </div>
 
                 <div className="flexcolumn footercolumn">
                     <div className="footerheader">Hours</div>
                     <div className="footersubheader">
-                        Rifle/Pistol:<br />
-                        Winter  Hours
+                        Rifle/Pistol:
                     </div>
 
                     <div className="footertext">
-                        10:00 AM – 4:30 PM  Wed. – Friday<br />
-                        9:00 AM – 4:30 PM  Sat. &  Sun.
+                        10:00 AM – 5:00 PM  Wed. – Friday<br />
+                        9:00 AM – 5:00 PM  Sat. &  Sun.
                     </div>
 
                     <div className="footersubheader">Trap/Skeet/Five Stand:</div>
@@ -125,15 +119,8 @@ const Footer = () =>
                 </div>
 
                 <div className="flexcolumn footercolumn">
-                    <div className="footerheader">Contact Us</div>
+                    <div className="footerheader">Call Us</div>
                     <div className="footertext">
-                        United Sportsmen Incorporated<br />
-                        4700 Evora Road<br />
-                        Concord, California 94520
-                    </div>
-
-                    <div className="footertext">
-                        Main Office-ShotgunClub House-Rifle & Pistol Range:<br />
                         <div className="bolded">925-676-1987</div>
                     </div>
                 </div>
