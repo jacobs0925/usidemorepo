@@ -1,11 +1,4 @@
-add dropdown on hover for navbar
-
 HOMEPAGE drive people to waiver
-
-ammunition page
-
-
-    group in sponsors + membership +club info
 
 calendar page
 
