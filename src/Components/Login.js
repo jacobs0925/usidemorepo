@@ -19,6 +19,7 @@ const LoginModal = ({ onClose, onSuccess }) =>
             {
                 onSuccess();
                 setError('')
+                onClose()
             }
             else
             {
