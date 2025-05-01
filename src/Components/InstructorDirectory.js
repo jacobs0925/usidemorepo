@@ -118,7 +118,9 @@ const FirearmsTrainingDirectory = () =>
                 </span><span
                     className={`badge bg-secondary`}
                     style={{ cursor: 'pointer', padding: '8px 12px' }}
-                        onClick={ async () => setData(await getNode('instructors/data'))}
+                        onClick={ async () => {
+                            setData(await getNode('instructors/data'))
+                            setEditingEnabled(false)}}
                 >
                         {editingEnabled && "Discard"}
                     </span></>
