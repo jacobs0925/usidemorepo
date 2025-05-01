@@ -18,9 +18,7 @@ const FirearmsTrainingDirectory = () =>
     const [admin, setAdmin] = useState(false);
     const [modalVisible, setModalVisible] = useState(false);
     const [editingEnabled, setEditingEnabled] = useState(false);
-    const [classTypesList, setClassTypesList] = useState([
-        "general", "pistol", "rifle", "shotgun", "ladies", "defense", "ccw", "skeet"
-    ])
+    const [classTypesList, setClassTypesList] = useState({})
 
     // Convert object data to array for display and manipulation
     const dataArray = React.useMemo(() =>
@@ -34,7 +32,9 @@ const FirearmsTrainingDirectory = () =>
     useEffect(() =>
     {
         listenForData('instructors/data', setData, true);
+        listenForData('instructors/classes', setClassTypesList, true);
         initAuth(() => setAdmin(true), () => { })
+
     }, []);
 
 
@@ -104,6 +104,7 @@ const FirearmsTrainingDirectory = () =>
         {
             setEditingEnabled(false);
             setNode('instructors/data', data);
+            setNode('instructors/classes', classTypesList);
         }
 
         if (admin)
@@ -118,9 +119,12 @@ const FirearmsTrainingDirectory = () =>
                 </span><span
                     className={`badge bg-secondary`}
                     style={{ cursor: 'pointer', padding: '8px 12px' }}
-                        onClick={ async () => {
-                            setData(await getNode('instructors/data'))
-                            setEditingEnabled(false)}}
+                    onClick={async () =>
+                    {
+                        setData(await getNode('instructors/data'))
+                        setClassTypesList(await getNode('instructors/classes'))
+                        setEditingEnabled(false)
+                    }}
                 >
                         {editingEnabled && "Discard"}
                     </span></>
@@ -181,8 +185,10 @@ const FirearmsTrainingDirectory = () =>
 
         const deleteTypeButton = () =>
         {
-            let newArray = classTypesList.filter(element => element !== type);
-            setClassTypesList(newArray);
+            const newObject = Object.fromEntries(
+                Object.entries(classTypesList).filter(([_, val]) => val !== type)
+            );
+            setClassTypesList(newObject);
         };
 
         const handleChange = (e) =>
@@ -266,15 +272,15 @@ const FirearmsTrainingDirectory = () =>
         return (
             <div className="d-flex flex-wrap gap-2 align-items-center">
                 <span className="fw-bold">Filter by class type:</span>
-                {classTypesList.map(type => (
+                {Object.values(classTypesList).map(type => (
                     <Button
                         key={type}
                         type={type}
                         className={`badge ${selectedClassType === type ? 'bg-success' : 'bg-secondary'}`}
                         style={{ cursor: 'pointer', padding: '8px 12px' }}
                         onClick={() => toggleClassTypeFilter(type)}
-                        text={type.charAt(0).toUpperCase() + type.slice(1)}>
-
+                        text={type.charAt(0).toUpperCase() + type.slice(1)}
+                    >
                         {selectedClassType === type && <span className="ms-1">✓</span>}
                     </Button>
                 ))}
