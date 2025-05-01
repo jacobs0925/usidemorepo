@@ -1,13 +1,5 @@
 HOMEPAGE drive people to waiver
 
-calendar page
-
-    center calendar
-
-    look for better calendar iframe (scale up)
-
-    show week view?
-
 waiver page
 
     make page look less bland
